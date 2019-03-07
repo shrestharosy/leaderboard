@@ -1,0 +1,87 @@
+.filepond--wrapper {
+  .filepond--root {
+    border: #ebebeb solid 1px;
+    border-radius: 0.5em;
+
+    .filepond--drop-label {
+      min-height: 2.75em;
+      color: $color-grey;
+      .label {
+        font-weight: 600;
+        font-size: 0.8571em;
+        line-height: 1.35em;
+      }
+    }
+    // .filepond--panel-root {
+    //   background-color: $color-white;
+    // }
+  }
+}
+
+.upload-wrap {
+  position: relative;
+  label {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    color: $color-grey;
+    border: #ebebeb solid 1px;
+    border-radius: 0.75em;
+    background: $color-white;
+    transition: background 0.3s;
+    color: $color-grey-light;
+    span {
+      color: $color-blue;
+    }
+    &:hover {
+      cursor: pointer;
+      background: lighten($color-grey-light, 25%);
+    }
+  }
+  input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .cross-btn {
+    // font-weight: 950;
+    // border: 1px solid;
+    // border-radius: 42px;
+    // padding: 3px;
+    margin-top: 36px;
+    margin-left: -12px;
+    &:hover {
+      cursor: pointer;
+      background: lighten($color-grey-light, 25%);
+    }
+  }
+  .file-uplod-btn {
+    button {
+      margin: 0 2px;
+    }
+  }
+  .upload-label{
+    font-size: 0.8571em;
+    margin-bottom: 5px;
+    color: #9A9A9A;
+  }
+  .select-task {
+    border: #ebebeb solid 1px;
+    padding: 10px 10px;
+    border-radius: 0.75em;
+    background: $color-white;
+    width: 50%;
+    &:hover,
+    &:active,
+    &:focus{
+      border: none;
+      background-color: white;
+    }
+  }
+}

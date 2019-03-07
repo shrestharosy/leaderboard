@@ -1,0 +1,22 @@
+.login-page {
+  margin: 0 auto;
+  float: none;
+}
+
+.login-bg {
+  min-height: 100vh;
+  position: relative;
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+
+  .login-bg-image {
+    opacity: 0.1;
+  }
+  .login-box {
+    position: absolute;
+    // width: 420px;
+    color: #fff;
+  }
+}

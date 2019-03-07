@@ -1,0 +1,27 @@
+.nav-tabs{
+    border-bottom: 2px solid $primary-color;
+}
+.tab-item {
+  width: 20em;
+  border: 1px solid $opacity-gray-5;
+  color: $primary-color;
+  font-weight: 600;
+  background-color: $color-white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 3em;
+  border-right-width: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+  &.active {
+    color: $color-white;
+    background-color: $primary-color;
+  }
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+  .tab-item-link {
+    border: none;
+  }
+}
